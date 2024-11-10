@@ -90,7 +90,7 @@ social:
     # BiliBili: https://space.bilibili.com/372204786 || anzhiyu-icon-bilibili
 # 作者卡片 状态
 author_status:
-  enable: enable
+  enable: disable
   # 可以是任何图片，建议放表情包或者emoji图片，效果都很好，[表情包速查](https://emotion.xiaokang.me/)
   statusImg: "https://bu.dusays.com/2023/08/24/64e6ce9c507bb.png"
   skills:
@@ -142,12 +142,12 @@ local_search:
 
 # MathJax
 mathjax:
-  enable: false
+  enable: true
   per_page: false
 
 # KaTeX
 katex:
-  enable: false
+  enable: true
   per_page: false
   hide_scrollbar: true
 
@@ -159,11 +159,11 @@ favicon: /favicon.ico
 
 # Avatar (头像)
 avatar:
-  img: https://avatars.githubusercontent.com/u/176640675?s=96&v=4
+  img: https://img.picui.cn/free/2024/11/10/6730516035be0.png
   effect: false
 
 # Disable all banner image
-disable_top_img: true
+disable_top_img: false
 
 # The banner image of home page
 index_img: "background: url(https://img02.anheyu.com/001) top / cover no-repeat" # "background: url() top / cover no-repeat"
@@ -831,10 +831,10 @@ aside:
     name_link: /
 
   card_announcement:
-    enable: false
+    enable: true
     content: 欢迎来看我的博客鸭~
   card_weixin:
-    enable: true
+    enable: false
     face: https://bu.dusays.com/2023/01/13/63c02edf44033.png
     backFace: https://bu.dusays.com/2023/05/13/645fa415e8694.png
   card_recent_post:
