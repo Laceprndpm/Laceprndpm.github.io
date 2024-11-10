@@ -21,32 +21,32 @@ menu:
     随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
 
 # menu:
-  # Article:
-  #   Tunnel: /archives/ || icon-box-archive
-  #   Classification: /categories/ || icon-shapes
-  #   Label: /tags/ || icon-tags
+# Article:
+#   Tunnel: /archives/ || icon-box-archive
+#   Classification: /categories/ || icon-shapes
+#   Label: /tags/ || icon-tags
 
-  # Friend:
-  #   Friends account: /link/ || icon-link
-  #   Moments: /fcircle/ || icon-artstation
-  #   Message board: /comments/ || icon-envelope
+# Friend:
+#   Friends account: /link/ || icon-link
+#   Moments: /fcircle/ || icon-artstation
+#   Message board: /comments/ || icon-envelope
 
-  # My:
-  #   Music Hall: /music/ || icon-music
-  #   Chasing: /bangumis/ || icon-bilibili1
-  #   Album Set: /album/ || icon-images
-  #   Conditioning: /air-conditioner/ || icon-fan
+# My:
+#   Music Hall: /music/ || icon-music
+#   Chasing: /bangumis/ || icon-bilibili1
+#   Album Set: /album/ || icon-images
+#   Conditioning: /air-conditioner/ || icon-fan
 
-  # About: /about/ || icon-zhifeiji
+# About: /about/ || icon-zhifeiji
 # nav相关配置
 nav:
-  enable: false
-  travelling: false
-  clock: false
+  enable: true
+  travelling: true
+  clock: true
   menu:
     - title: 网页
       item:
-        - name: 博客
+        - name: 安知鱼博客
           link: https://blog.anheyu.com/
           icon: /img/favicon.ico
     - title: 项目
@@ -59,7 +59,7 @@ nav:
 # 注意： 仅网站首页变灰，其他页面正常显示
 mourn:
   enable: false
-  days: [4-5, 5-12, 7-7, 9-18, 12-13, 11-9]
+  days: [4-5, 5-12, 7-7, 9-18, 12-13]
 
 # Code Blocks (代码相关)
 # --------------------------------------
@@ -84,12 +84,13 @@ copy:
 # formal:
 #   name: link || icon
 social:
-  # Github: https://github.com/anzhiyu-c || anzhiyu-icon-github
-  # BiliBili: https://space.bilibili.com/372204786 || anzhiyu-icon-bilibili
-
+  Github:
+    https://github.com/Laceprndpm || anzhiyu-icon-github
+    # Github: https://github.com/anzhiyu-c || anzhiyu-icon-github
+    # BiliBili: https://space.bilibili.com/372204786 || anzhiyu-icon-bilibili
 # 作者卡片 状态
 author_status:
-  enable: false
+  enable: enable
   # 可以是任何图片，建议放表情包或者emoji图片，效果都很好，[表情包速查](https://emotion.xiaokang.me/)
   statusImg: "https://bu.dusays.com/2023/08/24/64e6ce9c507bb.png"
   skills:
@@ -158,17 +159,17 @@ favicon: /favicon.ico
 
 # Avatar (头像)
 avatar:
-  img: https://bu.dusays.com/2023/04/27/64496e511b09c.jpg
+  img: https://avatars.githubusercontent.com/u/176640675?s=96&v=4
   effect: false
 
 # Disable all banner image
-disable_top_img: false
+disable_top_img: true
 
 # The banner image of home page
-index_img: false # "background: url() top / cover no-repeat"
+index_img: "background: url(https://img02.anheyu.com/001) top / cover no-repeat" # "background: url() top / cover no-repeat"
 
 # If the banner of page not setting, it will show the top_img
-default_top_img: false
+default_top_img: true
 
 cover:
   # display the cover or not (是否显示文章封面)
@@ -262,7 +263,7 @@ post_copyright:
 
 # Sponsor/reward
 reward:
-  enable: true
+  enable: false
   QR_code:
     - img: https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-weichat.png
       link:
