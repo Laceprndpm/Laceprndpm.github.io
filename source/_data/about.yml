@@ -28,15 +28,17 @@
     tips: 技能
     title: 开启创造力
   careers:
-    tips: 生涯
+    tips: 理想
     title: 无限进步
     list:
-      - desc: EDU,网络工程专业
+      - desc: 算法
         color: "#357ef5"
+      - desc: 前端
+        color: "#005596"
       # - desc: EDU,软件工程专业
       #   color: "#357ef5"
-      # - desc: EDU,软件工程专业
-      #   color: "#357ef5"
+    img: https://bu.dusays.com/2023/04/21/644287166329b.png
+    # img: /_upload/tpl/02/13/531/template531/images/tup-6.png
   statistic:
     link: /archives
     text: 文章隧道
@@ -70,7 +72,7 @@
   game:
     game_tips: 爱好游戏
     game_title: 原神
-    game_uid: "UID: 125766904"
+    game_uid: ""
     game_bg: https://bu.dusays.com/2023/04/22/64433bf26e25d.webp
   comic:
     comic_tips: 爱好番剧

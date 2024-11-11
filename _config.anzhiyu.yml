@@ -10,10 +10,10 @@ menu:
     # 留言板: /comments/ || anzhiyu-icon-envelope
 
   # 我的:
-    # 音乐馆: /music/ || anzhiyu-icon-music
-    # 追番页: /bangumis/ || anzhiyu-icon-bilibili
-    # 相册集: /album/ || anzhiyu-icon-images
-    # 小空调: /air-conditioner/ || anzhiyu-icon-fan
+  # 音乐馆: /music/ || anzhiyu-icon-music
+  # 追番页: /bangumis/ || anzhiyu-icon-bilibili
+  # 相册集: /album/ || anzhiyu-icon-images
+  # 小空调: /air-conditioner/ || anzhiyu-icon-fan
 
   关于:
     关于本人: /about/ || anzhiyu-icon-paper-plane
@@ -90,7 +90,7 @@ social:
     # BiliBili: https://space.bilibili.com/372204786 || anzhiyu-icon-bilibili
 # 作者卡片 状态
 author_status:
-  enable: disable
+  enable: false
   # 可以是任何图片，建议放表情包或者emoji图片，效果都很好，[表情包速查](https://emotion.xiaokang.me/)
   statusImg: "https://bu.dusays.com/2023/08/24/64e6ce9c507bb.png"
   skills:
@@ -446,10 +446,10 @@ crisp:
 footer:
   owner:
     enable: true
-    since: 2020
+    since: 2024
   custom_text:
   runtime:
-    enable: false
+    enable: true
     launch_time: 11/09/2024 00:00:00 # 网站上线时间
     work_img: https://npm.elemecdn.com/anzhiyu-blog@2.0.4/img/badge/安知鱼-上班摸鱼中.svg
     work_description: 距离月入25k也就还差一个大佬带我~
@@ -458,7 +458,7 @@ footer:
   # 徽标部分配置项 https://shields.io/
   # https://img.shields.io/badge/CDN-jsDelivr-orange?style=flat&logo=jsDelivr
   bdageitem:
-    enable: false
+    enable: true
     list:
       - link: https://hexo.io/ #徽标指向网站链接
         shields: https://npm.elemecdn.com/anzhiyu-blog@2.1.5/img/badge/Frame-Hexo.svg #徽标API
@@ -469,22 +469,22 @@ footer:
       # - link: https://www.dogecloud.com/
       #   shields: https://npm.elemecdn.com/anzhiyu-blog@2.2.0/img/badge/CDN-多吉云-3693F3.svg
       #   message: 本站使用多吉云为静态资源提供CDN加速
-      # - link: https://github.com/
-      #   shields: https://npm.elemecdn.com/anzhiyu-blog@2.1.5/img/badge/Source-Github.svg
-      #   message: 本站项目由Github托管
+      - link: https://github.com/
+        shields: https://npm.elemecdn.com/anzhiyu-blog@2.1.5/img/badge/Source-Github.svg
+        message: 本站项目由Github托管
       # - link: http://creativecommons.org/licenses/by-nc-sa/4.0/
       #   shields: https://npm.elemecdn.com/anzhiyu-blog@2.2.0/img/badge/Copyright-BY-NC-SA.svg
       #   message: 本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可
   socialBar:
-    enable: false
+    enable: true
     centerImg:
     left:
-      # - title: email
-      #   link: mailto:anzhiyu-c@qq.com
-      #   icon: anzhiyu-icon-envelope
-      # - title: 微博
-      #   link: https://weibo.com/u/6378063631
-      #   icon: anzhiyu-icon-weibo
+      - title: email1
+        link: mailto:Laceprndpm.64@outlook.com
+        icon: anzhiyu-icon-envelope
+      - title: email2
+        link: mailto:Laceprndpm.64@gmail.com
+        icon: anzhiyu-icon-envelope
       # - title: facebook
       #   link: https://www.facebook.com/profile.php?id=100092208016287&sk=about
       #   icon: anzhiyu-icon-facebook1
@@ -492,18 +492,18 @@ footer:
       #   link: atom.xml
       #   icon: anzhiyu-icon-rss
     right:
-      # - title: Github
-      #   link: https://github.com/anzhiyu-c
-      #   icon: anzhiyu-icon-github
+      - title: Github
+        link: https://github.com/anzhiyu-c
+        icon: anzhiyu-icon-github
       # - title: Bilibili
       #   link: https://space.bilibili.com/372204786
       #   icon: anzhiyu-icon-bilibili
       # - title: 抖音
       #   link: https://v.douyin.com/DwCpMEy/
       #   icon: anzhiyu-icon-tiktok
-      # - title: CC
-      #   link: /copyright
-      #   icon: anzhiyu-icon-copyright-line
+      - title: CC
+        link: /copyright
+        icon: anzhiyu-icon-copyright-line
   list:
     enable: false
     randomFriends: 3
@@ -554,7 +554,7 @@ footer:
       # - link: https://beian.miit.gov.cn/
       #   text: 湘ICP备-xxxxxxx号
     subTitle:
-      enable: false
+      enable: true
       # Typewriter Effect (打字效果)
       effect: true
       # Effect Speed Options (打字效果速度参数)
@@ -569,10 +569,11 @@ footer:
       # source: 2  调用一句网（简体） http://yijuzhan.com/
       # source: 3  调用今日诗词（简体） https://www.jinrishici.com/
       # subtitle 会先显示 source , 再显示 sub 的内容
-      source: 1
+      source: false
       # 如果关闭打字效果，subtitle 只会显示 sub 的第一行文字
       sub:
-        # - 生活明朗&#44; 万物可爱&#44; 人间值得&#44; 未来可期.
+        - 星星之火&#44; 可以燎原!
+        - 涓涓细流&#44; 汇聚成河!
 
 # Analysis
 # --------------------------------------
@@ -1243,7 +1244,7 @@ rightClickMenu:
 
 # 首页随便逛逛people模式 而非技能点模式，关闭后为技能点模式需要配置creativity.yml
 peoplecanvas:
-  enable: true
+  enable: false
   img: https://upload-bbs.miyoushe.com/upload/2024/07/27/125766904/ba62475f396df9de3316a08ed9e65d86_5680958632268053399..png
 
 # 动效
