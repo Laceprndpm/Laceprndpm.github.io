@@ -1,6 +1,7 @@
 ---
 title: Hexo+anzhiyu入门
 date: 2024-11-9 10:17:00
+cover: https://bu.dusays.com/2023/05/13/645fa3cf90d70.webp
 categories:
 - Hexo
 tags:
